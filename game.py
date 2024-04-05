@@ -44,4 +44,11 @@ def game2():
                 print("You lost! Try again.")
         else:
             print('u choose wrong options try again')
+choice = input('Enter Choice want to Play Biased or Unbiased game : ')
+if choice.lower== 'biased':
+    game2()
+elif choice.lower== 'unbiased':
+    game()
+else:
+    print('enter valid choice')
 # game2()
